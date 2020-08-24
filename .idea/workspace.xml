@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26403693-ecd1-400b-8fc6-f3286b282eb4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pristine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/process.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="2dikuzdo" />
+  </component>
+  <component name="ProjectId" id="1gJzuTt6AmY9o4GVmGOvjuRjF0Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Cargo Command.Expand pristine::process">
+    <configuration name="Build" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="build --release" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Expand pristine::process" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="expand --bin pristine --color=always --theme=GitHub --tests process" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cargo Command.Build" />
+      <item itemvalue="Cargo Command.Expand pristine::process" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo Command.Expand pristine::process" />
+        <item itemvalue="Cargo Command.Expand pristine::process" />
+        <item itemvalue="Cargo Command.Expand pristine::process" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="/usr/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26403693-ecd1-400b-8fc6-f3286b282eb4" name="Default Changelist" comment="" />
+      <created>1597847705264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597847705264</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="223" key="#Inspections" timestamp="1598021499073">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="586" y="223" key="#Inspections/0.28.1920.1052@0.28.1920.1052" timestamp="1598021499073" />
+    <state x="599" y="355" key="#Notifications" timestamp="1597913883675">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="599" y="355" key="#Notifications/0.28.1920.1052@0.28.1920.1052" timestamp="1597913883675" />
+    <state x="415" y="207" width="1089" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598168753663">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="415" y="207" width="1089" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1598168753663" />
+    <state x="527" y="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598195164781">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="527" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1598195164781" />
+    <state x="722" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1597916655943">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="722" y="207" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1597916655943" />
+    <state width="1866" height="404" key="GridCell.Tab.0.bottom" timestamp="1598196040300">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1866" height="404" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1598196040300" />
+    <state width="1866" height="404" key="GridCell.Tab.0.center" timestamp="1598196040300">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1866" height="404" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1598196040300" />
+    <state width="1866" height="404" key="GridCell.Tab.0.left" timestamp="1598196040300">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1866" height="404" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1598196040300" />
+    <state width="1866" height="404" key="GridCell.Tab.0.right" timestamp="1598196040300">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1866" height="404" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1598196040300" />
+    <state x="285" y="173" width="1164" height="907" key="SettingsEditor" timestamp="1598168801021">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="285" y="173" width="1164" height="907" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1598168801021" />
+    <state x="436" y="115" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598195260388">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="436" y="115" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1598195260388" />
+  </component>
+</project>

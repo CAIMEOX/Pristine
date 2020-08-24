@@ -1,0 +1,18 @@
+[package]
+name = "pristine"
+version = "0.2.0"
+authors = ["caimeo"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "^2.33.3"
+glib = { git = "https://github.com/gtk-rs/glib" }
+gstreamer = { git = "https://gitlab.freedesktop.org/gstreamer/gstreamer-rs" }
+gstreamer-video = { git = "https://gitlab.freedesktop.org/gstreamer/gstreamer-rs" }
+image = "0.23.8"
+mc-rs = { git = "https://github.com/CAIMEOX/mc-rs.git" }
+parking_lot = "0.11"
+serde = "1.0"
+serde_json = "1.0"
