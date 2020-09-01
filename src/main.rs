@@ -5,11 +5,10 @@ extern crate serde_json;
 use clap::{App, Arg};
 use gst::prelude::*;
 use gstreamer as gst;
-use mc_rs::pack::McPack;
 mod process;
-use std::time::SystemTime;
 use std::fs;
 use std::io::Write;
+use std::time::SystemTime;
 
 fn main() {
     let matches = App::new("Pristine")
@@ -57,10 +56,24 @@ fn main() {
 
     let path = matches.value_of("path").expect("Missing flag <path>!");
     let name = matches.value_of("name").or(Some("pristine")).unwrap();
-    let fps = matches.value_of("fps").unwrap_or("20").parse::<u32>().unwrap_or(20);
-    let spi = matches.value_of("spi").unwrap_or("1").parse::<u32>().unwrap_or(1);
-    let scale = matches.value_of("scale").unwrap_or("1").parse::<u32>().unwrap_or(1);
-    let fcm = matches.value_of("facing-camera-mode").unwrap_or("lookat_xyz");
+    let fps = matches
+        .value_of("fps")
+        .unwrap_or("20")
+        .parse::<u32>()
+        .unwrap_or(20);
+    let spi = matches
+        .value_of("spi")
+        .unwrap_or("1")
+        .parse::<u32>()
+        .unwrap_or(1);
+    let scale = matches
+        .value_of("scale")
+        .unwrap_or("1")
+        .parse::<u32>()
+        .unwrap_or(1);
+    let fcm = matches
+        .value_of("facing-camera-mode")
+        .unwrap_or("lookat_xyz");
     let looping = matches.occurrences_of("loop") > 0;
     let description = matches
         .value_of("description")
@@ -68,20 +81,26 @@ fn main() {
         .unwrap();
 
     let mut r = fs::File::create(".cache.json").unwrap();
-    r.write_all(&serde_json::to_string(&serde_json::json!(
-        {
-            "name":name,
-            "description":description,
-            "fcm":fcm,
-        }
-    )).unwrap().as_ref());
+    if let Err(e) = r.write_all(
+        &serde_json::to_string(&serde_json::json!(
+            {
+                "name":name,
+                "description":description,
+                "fcm":fcm,
+            }
+        ))
+        .unwrap()
+        .as_ref(),
+    ) {
+        panic!("{}", e);
+    }
 
     gst::init().expect("Unable to init gstreamer.");
     process::register().expect("Unable to register plugin.");
     let t1 = SystemTime::now();
     let encode_pipeline: &str = &format!(
         "filesrc location={} ! decodebin ! videoconvert ! Encoder width={} height={} scale={} loop={} ! filesink location=.cache",
-        path,fps, spi, scale, looping
+        path, spi, fps, scale, looping
     );
 
     println!("{}", encode_pipeline);

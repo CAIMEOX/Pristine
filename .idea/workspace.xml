@@ -14,14 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26403693-ecd1-400b-8fc6-f3286b282eb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pristine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/process.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/process.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/process.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +51,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/t1" />
+    </key>
   </component>
   <component name="RunManager" selected="Cargo Command.Expand pristine::process">
     <configuration name="Build" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
@@ -139,29 +142,33 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="722" y="207" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1597916655943" />
-    <state width="1866" height="404" key="GridCell.Tab.0.bottom" timestamp="1598196040300">
+    <state width="1858" height="397" key="GridCell.Tab.0.bottom" timestamp="1598276291887">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1866" height="404" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1598196040300" />
-    <state width="1866" height="404" key="GridCell.Tab.0.center" timestamp="1598196040300">
+    <state width="1858" height="397" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1598276291887" />
+    <state width="1858" height="397" key="GridCell.Tab.0.center" timestamp="1598276291887">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1866" height="404" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1598196040300" />
-    <state width="1866" height="404" key="GridCell.Tab.0.left" timestamp="1598196040300">
+    <state width="1858" height="397" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1598276291887" />
+    <state width="1858" height="397" key="GridCell.Tab.0.left" timestamp="1598276291887">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1866" height="404" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1598196040300" />
-    <state width="1866" height="404" key="GridCell.Tab.0.right" timestamp="1598196040300">
+    <state width="1858" height="397" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1598276291887" />
+    <state width="1858" height="397" key="GridCell.Tab.0.right" timestamp="1598276291887">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1866" height="404" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1598196040300" />
+    <state width="1858" height="397" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1598276291887" />
     <state x="285" y="173" width="1164" height="907" key="SettingsEditor" timestamp="1598168801021">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="285" y="173" width="1164" height="907" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1598168801021" />
-    <state x="436" y="115" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598195260388">
+    <state x="436" y="115" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598451753470">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="436" y="115" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1598195260388" />
+    <state x="436" y="115" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1598451753470" />
+    <state x="6" y="222" width="1905" height="672" key="new project wizard" timestamp="1598428402598">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="6" y="222" width="1905" height="672" key="new project wizard/0.28.1920.1052@0.28.1920.1052" timestamp="1598428402598" />
   </component>
 </project>

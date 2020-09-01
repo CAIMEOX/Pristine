@@ -623,7 +623,6 @@ checksum = "60302e4db3a61da70c0cb7991976248362f30319e88850c487b9b95bbf059e00"
 [[package]]
 name = "mc-rs"
 version = "0.1.0"
-source = "git+https://github.com/CAIMEOX/mc-rs.git#16318eb2f5910ac2dd1e1cf222b44f0ad3c898a6"
 dependencies = [
  "identicon-rs",
  "serde",
